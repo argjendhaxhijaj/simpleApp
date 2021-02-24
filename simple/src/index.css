@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Hartwell Alt semibold';
+  src: local('MyFont'), url(./fonts/Hartwell-Alt-Semibold.otf) format('opentype');
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #DFEDF2;
+  font-family: "Hartwell Alt semibold";
+}
+
+
+.mainnav{
+  font-family: 'Hartwell Alt semibold';
+  color: #2F373A;
+  font-size: 30px;
+  text-decoration: none;
+  text-decoration: none;
+  text-align: left;
+ }
+
+.mainnav :hover{
+  text-decoration: none;
+  color: #2F373A;
+}
+
+li{
+  font-size: 22px;
+  padding: 5px;
+  text-decoration: none;
+}
+li :hover{
+  color: #2F373A !important;
+}
+
+.li :hover{
+  color: #2F373A !important;
+}
+
+.li{
+  text-align: center;
+}
+
+
+li {list-style-type: none;}
+
+.sidebari > a
+{
+  text-decoration: none !important;
+}
+
+img{
+  width: 80%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.li1{
+  font-size: 22px;
+  padding: 5px;
+  text-decoration: none!important;
+  display: block;
+  margin-top: 20px;
+}
+
+
+.li1 {list-style-type: none;}
+
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  [class*="li"] {
+    font-size: 17px;
+    
+  }
+
+  [class*="li3"] {
+    color: #E2A19A !important;
+  }
+
+  [class*="text1"] {
+    text-align: center;
+  }
+  .li1{
+    display: inline;
+    top: 5px;
+  }
+
+  .slideshow{
+    width: 100%;
+  }
+
+  .li2{
+    display: none;
+  }
+
+  /* .navbaritems
+{
+  padding-right:50px
+} */
+}
