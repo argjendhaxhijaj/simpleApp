@@ -85,9 +85,6 @@ class Explore extends Component {
   }
 
   
-  // qe gjenda :D
-  //flm
-
   /* audio(){
     var song = document.getElementById("audio");
     var song1
